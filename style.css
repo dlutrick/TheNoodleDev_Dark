@@ -4,6 +4,20 @@
   padding: 0;
 }
 
+body {
+  background-color: #272727;
+}
+
 /* Devices smaller than 768px wide */
 @media only screen and (max-width: 767px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+
+  /* Hides the navbar links when viewed on a small device */
+  .navbar__links {
+    display: none;
+  }
 }
