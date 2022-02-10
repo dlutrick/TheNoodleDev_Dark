@@ -14,10 +14,16 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 1rem;
+    align-items: center;
   }
 
   /* Hides the navbar links when viewed on a small device */
   .navbar__links {
     display: none;
+  }
+
+  .navbar__bars {
+    color: #ffe400;
+    font-size: 2rem;
   }
 }
