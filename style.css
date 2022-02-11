@@ -17,6 +17,11 @@ body {
     align-items: center;
   }
 
+  .navbar__logo {
+    height: 100px;
+    padding-top: 2rem;
+  }
+
   /* Hides the navbar links when viewed on a small device */
   .navbar__links {
     display: none;
