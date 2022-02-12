@@ -101,4 +101,28 @@ body {
     border-bottom: solid black 1px;
     padding: 2rem;
   }
+
+  .custom-site__card img {
+    height: 300px;
+  }
+
+  .custom-site__card button {
+    margin-top: 2rem;
+  }
+
+  .custom-design__card img {
+    height: 300px;
+  }
+
+  .custom-design__card button {
+    margin-top: 2rem;
+  }
+
+  .copywrighting__card img {
+    height: 300px;
+  }
+
+  .copywrighting__card button {
+    margin-top: 2rem;
+  }
 }
