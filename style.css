@@ -16,11 +16,38 @@ body {
   color: rgb(243, 244, 245);
 }
 
+/* Custom site */
+.custom-site__card h2 {
+  color: #ffe400;
+}
+
+.custom-site__card button {
+  background-color: #ffe400;
+}
+
+/* Custom design */
+.custom-design__card h2 {
+  color: #14a76c;
+}
+
+.custom-design__card button {
+  background-color: #14a76c;
+}
+
+/* Copywrighting */
+.copywrighting__card h2 {
+  color: #ff652f;
+}
+
+.copywrighting__card button {
+  background-color: #ff652f;
+}
+
 .button {
   padding: 0.5rem 1rem;
   border-radius: 5px;
-  background-color: blue;
-  color: rgb(243, 244, 245);
+  background-color: rgb(243, 244, 245);
+  color: #272727;
 }
 
 .footer {
