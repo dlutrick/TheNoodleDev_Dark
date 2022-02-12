@@ -8,6 +8,14 @@ body {
   background-color: #272727;
 }
 
+.copyright {
+  color: rgb(243, 244, 245);
+  text-align: center;
+  padding: 1rem;
+  position: sticky;
+  bottom: 0;
+}
+
 /* Devices smaller than 768px wide */
 @media only screen and (max-width: 767px) {
   .navbar {
@@ -17,6 +25,7 @@ body {
     align-items: center;
   }
 
+  /* Site Logo styles */
   .navbar__logo {
     height: 100px;
     padding-top: 2rem;
