@@ -43,6 +43,7 @@ body {
   background-color: #ff652f;
 }
 
+/* Basic button styles */
 .button {
   padding: 0.5rem 1rem;
   border-radius: 5px;
@@ -50,6 +51,7 @@ body {
   color: #272727;
 }
 
+/* Footer */
 .footer {
   color: rgb(243, 244, 245);
   position: absolute;
