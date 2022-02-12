@@ -8,6 +8,21 @@ body {
   background-color: #272727;
 }
 
+.card {
+  text-align: center;
+  background-color: #272727;
+  margin: 1rem 1rem;
+  padding: 1rem;
+  color: rgb(243, 244, 245);
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  background-color: blue;
+  color: rgb(243, 244, 245);
+}
+
 .copyright {
   color: rgb(243, 244, 245);
   position: fixed;
@@ -52,5 +67,11 @@ body {
   .header {
     text-align: center;
     color: rgb(243, 245, 246);
+    padding-top: 2rem;
+  }
+
+  .card {
+    border-bottom: solid black 1px;
+    padding: 2rem;
   }
 }
