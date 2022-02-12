@@ -46,10 +46,11 @@ body {
 
 /* Basic button styles */
 .button {
-  padding: 0.5rem 1rem;
+  padding: 1rem 1.5rem;
   border-radius: 5px;
   background-color: rgb(243, 244, 245);
   color: #272727;
+  font-size: 1.25rem;
 }
 
 /* Footer */
