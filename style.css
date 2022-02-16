@@ -7,6 +7,8 @@
 body {
   background-color: #272727;
   font-family: "Kalam", sans-serif;
+  // position: relative;
+  // left: -150px;
 }
 
 .card {
@@ -86,7 +88,11 @@ body {
 
   /* Hides the navbar links when viewed on a small device */
   .navbar__links {
-    display: none;
+    flex-direction: column;
+    list-style-type: none;
+    text-decoration: none;
+    transition: 0.75s;
+    color: white;
   }
 
   /* Hamburger Icon */
@@ -99,6 +105,11 @@ body {
     margin: 1.5rem 1.5rem 0 0;
   }
 
+  /* Navbar slide styles */
+  .page {
+    transition: margin-left 0.75s;
+  }
+
   /* Site header for main section */
   .header {
     text-align: center;
@@ -108,30 +119,17 @@ body {
 
   .card {
     border-bottom: solid black 1px;
-    padding: 2rem;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    // padding: 2rem;
   }
 
-  .custom-site__card img {
+  .card__image {
     height: 300px;
   }
 
-  .custom-site__card button {
-    margin-top: 2rem;
-  }
-
-  .custom-design__card img {
-    height: 300px;
-  }
-
-  .custom-design__card button {
-    margin-top: 2rem;
-  }
-
-  .copywrighting__card img {
-    height: 300px;
-  }
-
-  .copywrighting__card button {
+  .card__button {
     margin-top: 2rem;
   }
 }
